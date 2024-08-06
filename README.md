@@ -17,7 +17,7 @@ Vì dự án sử dụng Node.js(Angular), bạn cần cài đặt các gói ph�
   npm install
 
 4. Chạy Dự Án
-Để chạy dự án Angular, sử dụng lệnh ng serve.
+Để chạy dự án Angular, sử dụng lệnh .
   ng serve -o
 
 
