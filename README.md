@@ -12,11 +12,11 @@ Tải về và cài đặt phiên bản phù hợp với hệ điều hành củ
 -Sau khi quá trình clone hoàn tất, di chuyển vào thư mục của dự án:  
   cd ADT_TEST_FE
   
-4. Cài Đặt Các Gói Phụ Thuộc
+3. Cài Đặt Các Gói Phụ Thuộc
 Vì dự án sử dụng Node.js(Angular), bạn cần cài đặt các gói phụ thuộc.
   npm install
 
-5. Chạy Dự Án
+4. Chạy Dự Án
 Để chạy dự án Angular, sử dụng lệnh ng serve.
   ng serve -o
 
