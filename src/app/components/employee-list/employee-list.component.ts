@@ -24,7 +24,7 @@ export class EmployeeListComponent implements OnInit {
   loadEmployees(): void {
     this.employeeService.getEmployees().subscribe(
       data => {
-        this.employees = data.result; // Chỉnh sửa theo cấu trúc dữ liệu của bạn
+        this.employees = data.result; 
       },
       error => {
         console.error('Error loading employees:', error);
