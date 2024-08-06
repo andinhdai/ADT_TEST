@@ -1,0 +1,10 @@
+/* Định nghĩa kiểu cho nhân viên được chọn */
+.selected {
+  @apply bg-gray-400 font-bold text-slate-900 text-[19px];
+}
+.border-add{
+  @apply border border-gray-800 font-medium;
+}
+.add-button{
+  @apply w-max bg-green-600 text-lg text-white rounded-sm px-2 py-1 hover:opacity-85 hover:text-gray-800;
+}

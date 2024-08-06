@@ -1,0 +1,9 @@
+<h1 mat-dialog-title class="uppercase">Thông tin nhân viên</h1>
+<div mat-dialog-content>
+  <p><strong>Tên:</strong> {{data.LAST_NAME + ' ' + data.NAME }}</p>
+  <p><strong>Email:</strong> {{ data.EMAIL }}</p>
+  <p><strong>Ngày đăng ký:</strong> {{ data.DATE_REGISTER }}</p>
+</div>
+<div mat-dialog-actions class="hover:bg-slate-200 w-max">
+  <button mat-button (click)="close()">CLOSE</button>
+</div>

@@ -1,0 +1,24 @@
+<div class="text-center mt-5 bg-slate-200 px-3 py-3 rounded-xl ">
+  <div class=" uppercase font-medium text-xl text-cyan-500 mb-3">Danh Sách Nhân Viên</div>
+  <table class="w-full border-separate text-lg  border-add mb-3">
+    <thead class="">
+      <tr class="">
+        <th class="border-add ">STT</th>
+        <th class="border-add ">Tên</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of employees; let i = index" (click)="selectEmployee(employee)">
+        <td class="border-add text-[#703762BF]">{{ i + 1 }}</td>
+        <td class="border-add text-[#703762BF] cursor-pointer " [class.selected]="employee === selectedEmployee">{{
+          employee.NAME }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="flex justify-center items-center gap-4 ">
+    <div class="add-button "><button (click)="loadEmployees()">Refresh</button></div>
+    <div class="add-button"><button (click)="viewEmployee()" [disabled]="!selectedEmployee">View
+        Employee</button></div>
+  </div>
+
+</div>
