@@ -18,4 +18,4 @@ Cách cài và chạy dự án
    Để chạy dự án Angular, sử dụng lệnh.
    ng serve -o
 
-
+*Lưu ý: Phải chạy cùng lúc client(FE) và server(BE)
