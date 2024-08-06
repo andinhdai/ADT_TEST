@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { EmployeeListComponent } from './components/employee-list/employee-list.component';
 import { EmployeeDialogComponent } from './components/employee-dialog/employee-dialog.component';
-import { matDialogAnimations, MatDialogModule } from '@angular/material/dialog';
+import {  MatDialogModule } from '@angular/material/dialog';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     EmployeeListComponent,
-    EmployeeDialogComponent
+    EmployeeDialogComponent,
+  
   ],
   imports: [
     BrowserModule,

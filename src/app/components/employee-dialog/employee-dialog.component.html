@@ -2,7 +2,8 @@
 <div mat-dialog-content>
   <p><strong>Tên:</strong> {{data.LAST_NAME + ' ' + data.NAME }}</p>
   <p><strong>Email:</strong> {{ data.EMAIL }}</p>
-  <p><strong>Ngày đăng ký:</strong> {{ data.DATE_REGISTER }}</p>
+  <p><strong>Ngày đăng ký:</strong> {{ data.DATE_REGISTER | date:'short' }}</p>
+  <p><strong>Đăng nhập lần cuối:</strong> {{ data.LAST_LOGIN | date:'short' }}</p>
 </div>
 <div mat-dialog-actions class="hover:bg-slate-200 w-max">
   <button mat-button (click)="close()">CLOSE</button>
